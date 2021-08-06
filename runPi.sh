@@ -1,1 +1,1 @@
-python /mnt/Seagate/Skripty/monitorPi.py -db=mydb -sn=test3
+python ~Repo/monitorPi.py -db=mydb -sn=test3
