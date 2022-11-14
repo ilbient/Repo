@@ -1,0 +1,1 @@
+Tento text chcem ulozit do .txt suboru
