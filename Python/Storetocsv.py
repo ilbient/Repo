@@ -6,7 +6,7 @@ import sys
 filename = "university_records.csv"
  
 # initializing the titles and rows list
-fields =        ['Name', 'Branch', 'Year', 'CGPA']
+fields =        [   'Name', 'Branch', 'Year', 'CGPA']
 rows   =        [   ['Nikhil', 'COE', '2', '9.0'],
                     ['Sanchit', 'COE', '2', '9.1']]
 
@@ -24,6 +24,16 @@ with open(filename, 'r') as csvfile:
         rows.append(row)
  
     # get total number of rows
-    print("Total no. of rows: %d"%(csvreader.line_num))
+
+    a = (csvreader.line_num)
+    print (a)
+
+    if ( a == 1): 
+        b = ("riadok")
+    else:
+        b = ("riadky")
+
+
+    print("Celkovy pocet riadkov v *.csv subore: %d"%(csvreader.line_num),b)
 
         #  sys.exit()
